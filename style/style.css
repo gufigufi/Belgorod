@@ -1,0 +1,73 @@
+p{
+	font-size: 14px;
+	color: #3c3c3c;
+}
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+	color: #636363;
+}
+#main, header{
+	max-width: 1024px;
+	min-width: 860px;
+	font-family: Arial, helvetica;
+	margin: 0 auto;
+}
+
+/*----------------------------------------header*/
+.header{
+	padding: 15px 10px 15px 20px;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-right: 100px;
+}
+.header div:not(.leng){
+	float: left;
+}
+
+.header .phone{
+	margin: 20px 40px 0 0;
+}
+.header .phone p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.header .phone p:first-child{
+	margin-bottom: 5px;
+}
+.header .phone p span{
+	color: #f1c40f;
+	font-size: 20px;
+}
+.header .location{
+	margin-top: 20px;
+}
+.header .location p{
+	font-size: 18px;
+}
+.header .location .time{
+	background: url(../images/watsh.png) no-repeat;
+	padding: 5px 0 4px 30px;
+	color: #f1c40f;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.header .leng{
+	float: right;
+}
+.header .leng a{
+	text-decoration: none;
+	color: #474747;
+	padding: 5px;
+}
+.header .leng a.activ{
+	background: #f1c40f;
+	color: #fff;
+}
+/*----------------------------------------/header*/
+/*----------------------------------------baner*/
+.baner img{
+	width: 100%;
+}
+/*----------------------------------------/baner*/
