@@ -66,8 +66,81 @@ h1,h2,h3,h4,h5,h6{
 	color: #fff;
 }
 /*----------------------------------------/header*/
+
 /*----------------------------------------baner*/
 .baner img{
 	width: 100%;
 }
 /*----------------------------------------/baner*/
+
+/*----------------------------------------rooms*/
+.rooms{
+	margin: 30px 70px 30px;
+	overflow: hidden;
+	text-align: center;
+}
+.rooms div {
+	width: 33%;
+	float: left;
+	margin-bottom: 30px;
+}
+.rooms h4{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.rooms a.head{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 9px 0;
+	width: 210px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+.rooms a.head:hover{
+	text-decoration: underline;
+}
+.rooms a.images img{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.rooms a.images img:hover{
+	opacity: 0.6;
+}
+.rooms a.head span{
+	display: block;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.rooms a.btn{
+	display: block;
+	width: 210px;
+	margin: 0 auto;
+	background: #ffb400;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 0;
+	border-radius: 5px;
+	margin-top: 10px;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.rooms a.btn:hover{
+	background: #fe871e;
+}
+.rooms .room1 a.head{background: #4fb09b;}
+.rooms .room2 a.head{background: #218ae4;}
+.rooms .room3 a.head{background: #751596;}
+.rooms .room4 a.head{background: #c43092;}
+.rooms .room5 a.head{background: #ff5f00;}
+.rooms .room6 a.head{background: #c43056;}
+/*----------------------------------------/rooms*/
