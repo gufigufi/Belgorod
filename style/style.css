@@ -221,3 +221,28 @@ h1,h2,h3,h4,h5,h6{
 	width: 100% !important;
 }
 /*----------------------------------------/maps*/
+
+/*----------------------------------------footer-nav*/
+.footer-nav{
+	background: #7d7d7d;
+	text-align: center;
+}
+.footer-nav ul{
+	  width: 1024px;
+	  margin: 0 auto 0;
+	  box-sizing: border-box;
+	  padding: 10px 110px;
+	  overflow: hidden;
+}
+.footer-nav ul li{
+	float: left;
+	margin-right: 10px;
+}
+.footer-nav ul a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-nav ul a:hover{
+	text-decoration: underline;
+}
+	/*----------------------------------------/footer-nav*/
