@@ -414,7 +414,9 @@ h4{
 	font-weight: bold;
 	margin-top: 50px;
 	padding: 26px 0 26px 85px;
-
+}
+.contact div a:hover{
+	text-decoration: none;
 }
 .contact div.contact_left a{
 	background: url(../images/how_to_come.gif) no-repeat;
@@ -430,7 +432,35 @@ h4{
 	overflow: hidden;
 }
 .new{
-	width: 48%;
+	width: 30%;
 	float: left;
+	margin-right: 3%;
+}
+.new img{
+	width: 100%;
+}
+.new div{
+	background: #fff;
+	padding: 5px;
+}
+.new h5{
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.new h5 a{
+	text-decoration: none;
+	color: #525252;
+}
+.new h5 a:hover{
+	text-decoration: underline;
+}
+.new p{
+	color: #525252;
+	text-align: justify;
+}
+.new p time{
+	display: block;
+	font-weight: bold;
 }
 /*----------------------------------------/news*/
