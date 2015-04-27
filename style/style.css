@@ -13,7 +13,10 @@ h1,h2,h3,h4,h5,h6{
 	font-family: Arial, helvetica;
 	margin: 0 auto;
 }
-
+#content{
+	background: #fff;
+	margin-top: 30px;
+}
 /*----------------------------------------header*/
 .header{
 	padding: 15px 10px 15px 20px;
@@ -68,6 +71,41 @@ h1,h2,h3,h4,h5,h6{
 }
 /*----------------------------------------/header*/
 
+/*----------------------------------------nav*/
+.navigation {
+  background: #e2e2e2;
+  text-align: center;
+}
+.navigation ul {
+  width: 1024px;
+  margin: 0 auto 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.navigation ul li {
+  margin-right: 40px;
+  display: inline-block;
+}
+.navigation ul li a{
+  color: #3c3c3c;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.navigation ul li a:hover{
+	background: #959595;
+	color: #fff;
+}
+.navigation ul li.free{
+	padding: 15px;
+	background: #959595;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 0;
+	float: right;
+}
+/*----------------------------------------/nav*/
+
 /*----------------------------------------baner*/
 .baner img{
 	width: 100%;
@@ -76,7 +114,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*----------------------------------------rooms*/
 .rooms{
-	margin: 30px 70px 30px;
+	margin: 0 70px;
 	overflow: hidden;
 	text-align: center;
 }
@@ -323,3 +361,40 @@ h1,h2,h3,h4,h5,h6{
 	background: #fe871e;
 }
 /*----------------------------------------/footer*/
+
+/*----------------------------------------category-galeryes*/
+.category-galeryes{
+	margin: 30px 70px 30px;
+	overflow: hidden;
+}
+.category-galeryes h4{
+	margin-bottom: 20px;
+}
+.category-galeryes div{
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+.category-galeryes img{
+	width: 100%;
+}
+.category-galeryes a.btn-galery{
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 0;
+	margin-top: -3px;
+
+}
+.category-galery1 a.btn-galery{
+	background: #e9b000;
+}
+.category-galery2 a.btn-galery{
+	background: #c53056;
+}
+.category-galery3 a.btn-galery{
+	background: #218ae5;
+}
+/*----------------------------------------/category-galeryes*/
