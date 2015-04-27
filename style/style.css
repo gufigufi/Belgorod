@@ -19,7 +19,7 @@ h4{
 }
 #content{
 	background: #fff;
-	margin: 30зч;;
+	margin: 30px auto;;
 }
 /*----------------------------------------header*/
 .header{
@@ -402,4 +402,35 @@ h4{
 	width: 50%;
 	float: left;
 }
+.contact div p{
+	color: #525252;
+	width: 330px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.contact div a{
+	display: block;
+	color: #f1c40f;
+	font-weight: bold;
+	margin-top: 50px;
+	padding: 26px 0 26px 85px;
+
+}
+.contact div.contact_left a{
+	background: url(../images/how_to_come.gif) no-repeat;
+	padding: 26px 0 26px 85px;
+}
+.contact div.contact_right a{
+	background: url(../images/what_next.gif) no-repeat;
+}
 /*----------------------------------------/contact*/
+
+/*----------------------------------------news*/
+.news{
+	overflow: hidden;
+}
+.new{
+	width: 48%;
+	float: left;
+}
+/*----------------------------------------/news*/
