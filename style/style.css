@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6{
 	color: #636363;
 	font-size: 20px;
 }
-#content, .header, .advantagees{
+#content, .header, .advantagees, .footer{
 	max-width: 1024px;
 	min-width: 860px;
 	font-family: Arial, helvetica;
@@ -231,12 +231,12 @@ h1,h2,h3,h4,h5,h6{
 	  width: 1024px;
 	  margin: 0 auto 0;
 	  box-sizing: border-box;
-	  padding: 10px 110px;
+	  padding: 15px 0;
 	  overflow: hidden;
 }
 .footer-nav ul li{
-	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
+	display: inline-block;
 }
 .footer-nav ul a{
 	color: #fff;
@@ -245,4 +245,81 @@ h1,h2,h3,h4,h5,h6{
 .footer-nav ul a:hover{
 	text-decoration: underline;
 }
-	/*----------------------------------------/footer-nav*/
+/*----------------------------------------/footer-nav*/
+
+/*----------------------------------------footer*/
+.footer{
+	overflow: hidden;
+	padding: 20px 0;
+}
+.footer>div{
+	float: left;
+}
+.foot-partner{
+	width: 40%;
+	margin-right: 10%;
+}
+.foot-partner>div{
+	width: 50%;
+	float: left;
+}
+.foot-partner1{
+	text-align: center;
+}
+.foot-partner2 img {
+  margin-top: 15px;
+}
+.foot-social{
+	width: 17%;
+	margin: 25px 20px 0 0;
+}
+.foot-social p{
+	font-size: 15px;
+	line-height: 1.3;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.foot-social img{
+	margin-right: 13px;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.foot-social img:hover{
+	opacity: 0.5
+}
+.foot-adres{
+	width: 20%;
+	margin-top: 25px;
+}
+.foot-adres p{
+	font-size: 15px;
+	line-height: 1.3;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.foot-adres a{
+	display: block;
+	width: 210px;
+	margin: 0 auto;
+	background: #ffb400;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 0;
+	border-radius: 5px;
+	margin-top: 10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	text-align: center;
+}
+.foot-adres a:hover{
+	background: #fe871e;
+}
+/*----------------------------------------/footer*/
