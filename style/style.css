@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,h6{
 	color: #636363;
 	font-size: 20px;
 }
+h4{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
 #content, .header, .advantagees, .footer{
 	max-width: 1024px;
 	min-width: 860px;
@@ -15,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #content{
 	background: #fff;
-	margin-top: 30px;
+	margin: 30зч;;
 }
 /*----------------------------------------header*/
 .header{
@@ -123,10 +127,6 @@ h1,h2,h3,h4,h5,h6{
 	float: left;
 	margin-bottom: 30px;
 }
-.rooms h4{
-	margin-bottom: 20px;
-	text-transform: uppercase;
-}
 .rooms a.head{
 	display: block;
 	text-decoration: none;
@@ -187,10 +187,6 @@ h1,h2,h3,h4,h5,h6{
 .serveses{
 	overflow: hidden;
 	text-align: center;
-}
-.serveses h4{
-	margin-bottom: 20px;
-	text-transform: uppercase;
 }
 .serves{
 	width: 20%;
@@ -367,9 +363,6 @@ h1,h2,h3,h4,h5,h6{
 	margin: 30px 70px 30px;
 	overflow: hidden;
 }
-.category-galeryes h4{
-	margin-bottom: 20px;
-}
 .category-galeryes div{
 	float: left;
 	width: 30%;
@@ -398,3 +391,15 @@ h1,h2,h3,h4,h5,h6{
 	background: #218ae5;
 }
 /*----------------------------------------/category-galeryes*/
+
+/*----------------------------------------contact*/
+.contact{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 950px;
+}
+.contact div{
+	width: 50%;
+	float: left;
+}
+/*----------------------------------------/contact*/
