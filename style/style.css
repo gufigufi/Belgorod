@@ -506,3 +506,21 @@ h4{
 	line-height: 1.2;
 }
 /*----------------------------------------/about_us*/
+
+/*----------------------------------------partners*/
+.partners{
+	overflow: hidden;
+}
+.partners div{
+	width: 30%;
+	margin-right: 3%;
+	float: left;
+	line-height: 140px;
+}
+.partners div img{
+	width: 100%;
+	display: inline-block;
+	line-height: 1.2;
+	vertical-align: middle;
+}
+/*----------------------------------------/partners*/
