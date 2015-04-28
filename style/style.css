@@ -524,3 +524,39 @@ h4{
 	vertical-align: middle;
 }
 /*----------------------------------------/partners*/
+
+/*----------------------------------------reviews*/
+.reviews{
+	overflow: hidden;
+}
+.reviews>div{
+	width: 45%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ececec;
+	margin: 0 5% 5% 0;
+}
+.reviews .recall-left{
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+.reviews .recall-left img{
+	border-radius: 50%;
+	margin-bottom: 5px;
+	
+}
+.reviews .recall-right{
+	float: left;
+	width: 57%;
+	margin-left: 3%;
+}
+.reviews .recall-right h5{
+	color: #479362;
+	text-align: left;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+/*----------------------------------------/reviews*/
