@@ -254,6 +254,11 @@ h4{
 .maps>ymaps{
 	width: 100% !important;
 }
+.maps h5{
+	background: #ffb400;
+	color: #fff;
+	padding: 10px 0;
+}
 /*----------------------------------------/maps*/
 
 /*----------------------------------------footer-nav*/
@@ -440,8 +445,9 @@ h4{
 	width: 100%;
 }
 .new div{
-	background: #fff;
-	padding: 5px;
+	background: #f3f3f3;
+	padding: 10px;
+	margin-top: -3px;
 }
 .new h5{
 	text-align: left;
@@ -457,10 +463,46 @@ h4{
 }
 .new p{
 	color: #525252;
-	text-align: justify;
 }
 .new p time{
 	display: block;
 	font-weight: bold;
 }
 /*----------------------------------------/news*/
+
+/*----------------------------------------about_us*/
+.about_us{
+	overflow: hidden;
+}
+.about_us>div{
+	float: left;
+	width: 30%;
+	margin: 0 3% 6% 0;
+	text-align: center;
+}
+.about_us>div img{
+	border-radius: 50%;
+}
+.about_us>div a:not(.btn-about){
+	display: block;
+	margin-bottom: 15px;
+}
+.about_us>div a.btn-about{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	width: 80px;
+	padding: 8px 25px;
+}
+.about_us1 a.btn-about{background: #3e8f57;}
+.about_us2 a.btn-about{background: #c32828;}
+.about_us3 a.btn-about{background: #3a77b5;}
+.about_us p{
+	text-align: justify;
+	font-size: 17px;
+	line-height: 1.2;
+}
+/*----------------------------------------/about_us*/
