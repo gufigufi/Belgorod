@@ -13,9 +13,9 @@ h4{
 }
 #content, .header, .advantagees, .footer{
 	max-width: 1024px;
-	min-width: 860px;
 	font-family: Arial, helvetica;
 	margin: 0 auto;
+	position: relative;
 }
 #content{
 	background: #fff;
@@ -77,24 +77,26 @@ h4{
 
 /*----------------------------------------nav*/
 .navigation {
-  background: #e2e2e2;
-  text-align: center;
+	background: #e2e2e2;
+	text-align: center;
+	font-family: Arial, helvetica;
 }
 .navigation ul {
-  width: 1024px;
-  margin: 0 auto 0;
-  box-sizing: border-box;
-  overflow: hidden;
+	margin: 0 auto 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	max-width: 1200px;
 }
 .navigation ul li {
-  margin-right: 40px;
-  display: inline-block;
+	margin-right: 25px;
+	display: inline-block;
 }
 .navigation ul li a{
-  color: #3c3c3c;
-  text-decoration: none;
-  display: block;
-  padding: 15px;
+	color: #3c3c3c;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	text-transform: uppercase;
 }
 .navigation ul li a:hover{
 	background: #959595;
@@ -232,7 +234,6 @@ h4{
 	width: 50%;
 	float: left;
 	overflow: hidden;
-	box-sizing: border-box;
 	margin-bottom: 30px;
 }
 .advantage>div, .advantage h3, .advantage p{
@@ -241,7 +242,7 @@ h4{
 .advantage>div{
 	margin-right: 10px;
 	text-align: center;
-	width: 95px;
+	width: 25%;
 }
 .advantage p{
 	width: 70%;
@@ -267,11 +268,10 @@ h4{
 	text-align: center;
 }
 .footer-nav ul{
-	  width: 1024px;
-	  margin: 0 auto 0;
-	  box-sizing: border-box;
-	  padding: 15px 0;
-	  overflow: hidden;
+	margin: 0 auto 0;
+	box-sizing: border-box;
+	padding: 15px 0;
+	overflow: hidden;
 }
 .footer-nav ul li{
 	margin-right: 20px;
@@ -560,3 +560,165 @@ h4{
 	margin-bottom: 10px;
 }
 /*----------------------------------------/reviews*/
+
+
+
+
+
+
+/*----------------------------------------МОБИЛЬНАЯ ВЕРСТКА--------------------------*/
+@media only screen and (max-width:1055px){
+	.navigation ul li{
+		margin-right: 10px;
+	}
+}
+@media only screen and (max-width:966px){
+	.navigation ul li.free{
+		display: none;
+	}
+	.header .leng{
+		float: none;
+		position: absolute;
+		right: 80px;
+		top: 10px;
+	}
+	.navigation ul li {
+		margin-right: 45px;
+	}
+	.navigation ul li{
+		margin-right: 7px;
+	}
+	.foot-social img{
+		margin-right: 9px;
+	}
+	.foot-social p{
+		font-size: 13px;
+	}
+	.foot-partner{
+		display: none;
+	}
+	.foot-social{
+		width: 45%;
+		text-align: right;
+		margin-right: 0;
+	}
+	.footer .foot-adres{
+		width: 45%;
+		float: right;
+	}
+	.foot-adres a{
+		margin: 0;
+
+	}
+}
+@media only screen and (max-width:892px){
+	.logo{
+		margin-right: 7px;
+	}
+	.header .phone{
+		margin-right: 10px;
+	}
+	.header .phone p{
+		font-size: 17px;
+	}
+	.header .phone p span{
+		font-style: 18px;
+	}
+	.advantage>div{
+		width: 20%;
+	}
+	.advantage>div img{
+		width: 100%;
+	}
+	.advantagees h3{
+		font-size: 17px;
+	}
+
+}
+@media only screen and (max-width:801px){
+	.navigation ul li a{
+		padding: 15px 10px;
+	}
+	.rooms div{
+		width: 50%;
+		margin-bottom: 54px;
+	}
+	.serves{
+		width: 25%;
+	}
+	.header .location{
+		display: none;
+	}
+	.header .leng{
+		right: 60px;
+		top: 30px;
+	}
+	.logo{
+		width: 40%;
+		margin-right: 10%;
+	}
+	.logo img{
+		width: 100%;
+	}
+	.header .phone{
+		margin: 0;
+	}
+}
+@media only screen and (max-width:752px){
+	.advantage{
+		float: none;
+		width: 100%;
+	}
+	.advantage>div img{
+		width: 100%;
+	}
+	.advantagees h3{
+		font-size: 17px;
+	}
+	.navigation ul li a{
+		font-size: 14px;
+	}
+	.advantage>div{
+		width: 15%;
+	}
+}
+@media only screen and (max-width:663px){
+	.navigation ul li a{
+		font-size: 12px;
+	}
+	.header .phone{
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width:601px){
+	.navigation ul li a{
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width:581px){
+	.header .leng{
+		display: none;
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+		margin-right: 0;
+	}
+	.logo img{
+		width: 50%;
+	}
+	.header .phone {
+		display: none;
+	}
+	.navigation{
+		/*!!!!!!!!!!!!!!!!!!!ТУТ ЧТО ТО СДЕЛАТЬ С НАВИГАЦИЕЙ!!!!!!!!!!!!!!!!*/
+	}
+	.rooms div{
+		float: none;
+		width: 100%;
+	}
+	.serves{
+		width: 33%;
+
+	}
+}
