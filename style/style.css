@@ -1,3 +1,6 @@
+*{
+	font-family: Arial, helvetica;
+}
 p{
 	font-size: 14px;
 	color: #3c3c3c;
@@ -13,7 +16,6 @@ h4{
 }
 #content, .header, .advantagees, .footer{
 	max-width: 1024px;
-	font-family: Arial, helvetica;
 	margin: 0 auto;
 	position: relative;
 }
@@ -371,7 +373,7 @@ h4{
 .category-galeryes div{
 	float: left;
 	width: 30%;
-	margin-right: 3%;
+	margin: 0 3% 3% 0;
 }
 .category-galeryes img{
 	width: 100%;
@@ -401,33 +403,35 @@ h4{
 .contact{
 	overflow: hidden;
 	margin: 0 auto;
-	width: 950px;
-}
-.contact div{
-	width: 50%;
-	float: left;
+	padding: 0 30px;
+	max-width: 950px;
 }
 .contact div p{
 	color: #525252;
 	width: 330px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 21px;
+	width: 50%;
+	float: left;
 }
-.contact div a{
+.contact a{
 	display: block;
 	color: #f1c40f;
 	font-weight: bold;
 	margin-top: 50px;
 	padding: 26px 0 26px 85px;
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
 }
-.contact div a:hover{
+.contact a:hover{
 	text-decoration: none;
 }
-.contact div.contact_left a{
+.contact a.how_to_come{
 	background: url(../images/how_to_come.gif) no-repeat;
 	padding: 26px 0 26px 85px;
 }
-.contact div.contact_right a{
+.contact a.what_next{
 	background: url(../images/what_next.gif) no-repeat;
 }
 /*----------------------------------------/contact*/
@@ -435,11 +439,12 @@ h4{
 /*----------------------------------------news*/
 .news{
 	overflow: hidden;
+	padding: 0 30px;
 }
 .new{
 	width: 30%;
 	float: left;
-	margin-right: 3%;
+	margin: 0 3% 3% 0;
 }
 .new img{
 	width: 100%;
@@ -481,11 +486,12 @@ h4{
 /*----------------------------------------about_us*/
 .about_us{
 	overflow: hidden;
+	padding: 0 30px;
 }
 .about_us>div{
 	float: left;
 	width: 30%;
-	margin: 0 3% 6% 0;
+	margin: 0 3% 5% 0;
 	text-align: center;
 }
 .about_us>div img{
@@ -527,6 +533,7 @@ h4{
 	text-align: justify;
 	font-size: 17px;
 	line-height: 1.2;
+	clear: both;
 }
 /*----------------------------------------/about_us*/
 
@@ -686,6 +693,28 @@ h4{
 	.header .phone{
 		margin: 0;
 	}
+	.about_us>div{
+		width: 45%;
+		margin: 0 5% 5% 0;
+	}
+	.category-galeryes div{
+		width: 45%;
+		margin: 0 5% 5% 0;
+	}
+	.new{
+		width: 45%;
+		margin: 0 5% 5% 0;
+	}
+	.contact div{
+		width: 100%;
+		float: none;
+	}
+	.contact div p{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
 }
 @media only screen and (max-width:752px){
 	.advantage{
@@ -704,6 +733,10 @@ h4{
 	.advantage>div{
 		width: 15%;
 	}
+	.footer-nav{
+		display: none;
+	}
+
 }
 @media only screen and (max-width:663px){
 	.navigation ul li a{
@@ -716,6 +749,16 @@ h4{
 @media only screen and (max-width:601px){
 	.navigation ul li a{
 		font-size: 11px;
+	}
+	.category-galeryes div{
+		float: none;
+		width: 100%;
+		margin: 0 0 10% 0;
+	}
+	.new{
+		float: none;
+		width: 100%;
+		margin: 0 0 10% 0;
 	}
 }
 @media only screen and (max-width:581px){
@@ -742,6 +785,40 @@ h4{
 	}
 	.serves{
 		width: 33%;
-
+	}
+	.about_us>div{
+		float: none;
+		width: 100%;
+		margin: 0 0 10% 0;
+	}
+	.rooms{
+		margin: 0;
+	}
+	.advantagees{
+		padding: 30px 40px 0px;
+	}
+	.advantage>div{
+		display: none;
+	}
+	.advantage p{
+		width: 100%;
+	}
+	.footer>div{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.footer .foot-adres{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.foot-adres a{
+		margin: 0 auto;
+	}
+	.contact a{
+		width: 240px;
+		float: none;
+		margin: 50px auto 0;
 	}
 }
