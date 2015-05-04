@@ -78,16 +78,16 @@ h4{
 /*----------------------------------------/header*/
 
 /*----------------------------------------nav*/
-.navigation {
-	background: #e2e2e2;
-	text-align: center;
-	font-family: Arial, helvetica;
+a#pull{
+	display: none;
 }
 .navigation ul {
 	margin: 0 auto 0;
 	box-sizing: border-box;
 	overflow: hidden;
-	max-width: 1200px;
+	background: #e2e2e2;
+	text-align: center;
+	font-family: Arial, helvetica;
 }
 .navigation ul li {
 	margin-right: 25px;
@@ -105,12 +105,12 @@ h4{
 	color: #fff;
 }
 .navigation ul li.free{
-	padding: 15px;
-	background: #959595;
+	padding: 15px 10px;
+	background: #FFC500;
 	font-weight: bold;
 	color: #fff;
 	margin-right: 0;
-	float: right;
+	font-size: 14px;
 }
 /*----------------------------------------/nav*/
 
@@ -199,6 +199,7 @@ h4{
 }
 .serves p{
 	margin-top: 5px;
+	text-transform: uppercase;
 }
 /*----------------------------------------/serveses*/
 
@@ -540,6 +541,7 @@ h4{
 /*----------------------------------------partners*/
 .partners{
 	overflow: hidden;
+	padding: 0 15px;
 }
 .partners div{
 	width: 30%;
@@ -603,9 +605,6 @@ h4{
 	}
 }
 @media only screen and (max-width:966px){
-	.navigation ul li.free{
-		display: none;
-	}
 	.header .leng{
 		float: none;
 		position: absolute;
@@ -617,6 +616,9 @@ h4{
 	}
 	.navigation ul li{
 		margin-right: 7px;
+	}
+	.navigation ul li a{
+
 	}
 	.foot-social img{
 		margin-right: 9px;
@@ -713,8 +715,8 @@ h4{
 		float: none;
 		width: 100%;
 		margin-bottom: 20px;
-
 	}
+
 }
 @media only screen and (max-width:752px){
 	.advantage{
@@ -736,6 +738,14 @@ h4{
 	.footer-nav{
 		display: none;
 	}
+	.navigation ul li a{
+		font-size: 12px;
+	}
+	.navigation ul li.free{
+		font-size: 12px;
+		padding: 15px 10px;
+		padding: 15px 5px;	
+	}
 
 }
 @media only screen and (max-width:663px){
@@ -745,8 +755,12 @@ h4{
 	.header .phone{
 		margin-top: 0;
 	}
+	.navigation ul li.free{
+		font-size: 12px;
+		padding: 15px 5px;	
+	}
 }
-@media only screen and (max-width:601px){
+@media only screen and (max-width:605px){
 	.navigation ul li a{
 		font-size: 11px;
 	}
@@ -759,6 +773,14 @@ h4{
 		float: none;
 		width: 100%;
 		margin: 0 0 10% 0;
+	}
+	.navigation ul li.free{
+	  	width: 90px;
+  		padding: 5px 5px;
+	}
+	.partners div{
+		width: 45%;
+		margin-right: 5%;	
 	}
 }
 @media only screen and (max-width:581px){
@@ -776,8 +798,22 @@ h4{
 	.header .phone {
 		display: none;
 	}
-	.navigation{
-		/*!!!!!!!!!!!!!!!!!!!ТУТ ЧТО ТО СДЕЛАТЬ С НАВИГАЦИЕЙ!!!!!!!!!!!!!!!!*/
+	.navigation ul{
+		display: none;
+	}
+	a#pull {
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 55px;
+		z-index: 999;
+	}
+	.navigation ul li{
+		width: 100%;
+		display: block;
+	}
+	.navigation ul li.free{
+		width: 100%;
 	}
 	.rooms div{
 		float: none;
@@ -821,4 +857,9 @@ h4{
 		float: none;
 		margin: 50px auto 0;
 	}
+	.partners div{
+		width: 100%;
+		float: none;
+	}
+}
 }
