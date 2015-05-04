@@ -443,6 +443,14 @@ h4{
 }
 .new img{
 	width: 100%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.new img:hover{
+	opacity: 0.6;
 }
 .new div{
 	background: #f3f3f3;
@@ -482,6 +490,14 @@ h4{
 }
 .about_us>div img{
 	border-radius: 50%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.about_us>div img:hover{
+	opacity: 0.6;
 }
 .about_us>div a:not(.btn-about){
 	display: block;
@@ -496,10 +512,17 @@ h4{
 	border-radius: 5px;
 	width: 80px;
 	padding: 8px 25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 .about_us1 a.btn-about{background: #3e8f57;}
 .about_us2 a.btn-about{background: #c32828;}
 .about_us3 a.btn-about{background: #3a77b5;}
+.about_us>div a.btn-about:hover{opacity: 0.6;}
+
 .about_us p{
 	text-align: justify;
 	font-size: 17px;
