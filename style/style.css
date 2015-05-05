@@ -78,14 +78,26 @@ h4{
 /*----------------------------------------/header*/
 
 /*----------------------------------------nav*/
+.navigation {
+	background: #e2e2e2;
+}
 a#pull{
 	display: none;
+}
+a#pull:after {
+  content: "";
+  background: url(../images/icon-menu.gif) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 3%;
 }
 .navigation ul {
 	margin: 0 auto 0;
 	box-sizing: border-box;
 	overflow: hidden;
-	background: #e2e2e2;
 	text-align: center;
 	font-family: Arial, helvetica;
 }
@@ -791,9 +803,11 @@ a#pull{
 		width: 100%;
 		text-align: center;
 		margin-right: 0;
+		position: relative;
+  		z-index: 1;
 	}
 	.logo img{
-		width: 50%;
+		width: 65%;
 	}
 	.header .phone {
 		display: none;
@@ -803,13 +817,16 @@ a#pull{
 	}
 	a#pull {
 		display: block;
-		position: absolute;
-		top: 30px;
-		left: 55px;
-		z-index: 999;
+		font-size: 14px;
+		font-weight: bold;
+		color: #333;
+		text-decoration: none;
+		padding: 10px 3%;
+		width: 94%;
+		position: relative;
 	}
 	.navigation ul li{
-		width: 100%;
+		width: 100%;	
 		display: block;
 	}
 	.navigation ul li.free{
